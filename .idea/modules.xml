@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-gateway/my-gateway.iml" filepath="$PROJECT_DIR$/my-gateway/my-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-nacos/my-nacos.iml" filepath="$PROJECT_DIR$/my-nacos/my-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-zuul/my-zuul.iml" filepath="$PROJECT_DIR$/my-zuul/my-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-nacos.iml" filepath="$PROJECT_DIR$/test-nacos.iml" />
+    </modules>
+  </component>
+</project>

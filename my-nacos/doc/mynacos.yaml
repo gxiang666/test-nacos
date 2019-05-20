@@ -1,0 +1,20 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /ssm
+spring:
+  application:
+    name: testnacos
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://39.96.39.7:3306/nacos01
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.tnti.entity
