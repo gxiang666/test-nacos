@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-common/my-common.iml" filepath="$PROJECT_DIR$/my-common/my-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-feign/my-feign.iml" filepath="$PROJECT_DIR$/my-feign/my-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-gateway/my-gateway.iml" filepath="$PROJECT_DIR$/my-gateway/my-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-nacos/my-nacos.iml" filepath="$PROJECT_DIR$/my-nacos/my-nacos.iml" />

@@ -12,6 +12,7 @@
         <module>my-zuul</module>
         <module>my-gateway</module>
         <module>my-feign</module>
+        <module>my-common</module>
     </modules>
     <packaging>pom</packaging>
 
