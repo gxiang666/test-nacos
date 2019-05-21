@@ -1,10 +1,10 @@
 server:
   port: 9090
-  servlet:
-    context-path: /ssm
+#  servlet:
+#    context-path: /ssm
 spring:
   application:
-    name: testnacos
+    name: mynacos   # 这个是注册中心的服务名字，可以配，也可以不配
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://39.96.39.7:3306/nacos01
@@ -18,3 +18,11 @@ spring:
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.tnti.entity
+
+
+# 健康检查,端点检查
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

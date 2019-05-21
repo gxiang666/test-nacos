@@ -1,9 +1,6 @@
-server:
-  port: 9090
-
 spring:
   application:
-    name: mynacos
+    name: mynacos # 这个是config的名字
   cloud:
     nacos:
       config:

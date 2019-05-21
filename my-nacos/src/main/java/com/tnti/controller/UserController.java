@@ -15,6 +15,7 @@ public class UserController {
     UserDao userDao;
 
     //http://localhost:9090/list
+    //http://localhost:9090/actuator/nacos-discovery
     @RequestMapping("/list")
     public List<User> list(){
         return userDao.list();

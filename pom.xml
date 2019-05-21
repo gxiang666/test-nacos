@@ -11,6 +11,7 @@
         <module>my-nacos</module>
         <module>my-zuul</module>
         <module>my-gateway</module>
+        <module>my-feign</module>
     </modules>
     <packaging>pom</packaging>
 
